@@ -3,26 +3,28 @@ body {background-color: #87CEEB;}
 */
 body {
   margin: 0;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   text-align: center;
 }
 
-p {  line-height: 2;}
+p {
+  line-height: 2;
+}
 
 .top-container {
-  background-color: #6495ED;
+  background-color: #6495ed;
   padding-top: 100px;
 }
 
 .middle-container {
-    background-color: #FAFAD2;
-    padding-top: 100px;
-    padding-bottom: 50px;
+  background-color: #fafad2;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
-.mcp { width: 30%;
+.mcp {
+  width: 30%;
   margin: auto;
-
 }
 
 .me {
@@ -54,50 +56,56 @@ p {  line-height: 2;}
 }
 
 .bottom-container {
-  background-color: #F0E68C;
+  background-color: #f0e68c;
   height: 100px;
 }
 
-a { margin: 10px 20px;
-    font-family: 'Chelsea Market', cursive;
-    color: #11999E;
-  text-decoration: none;}
+a {
+  margin: 10px 20px;
+  font-family: "Chelsea Market", cursive;
+  color: #11999e;
+  text-decoration: none;
+}
 
-a:hover { color: white;}
+a:hover {
+  color: white;
+}
 
 .footer-link {
-  color: #11999E;
+  color: #11999e;
   position: relative;
   top: 20px;
   left: 100px;
 }
 
 .footer-link-one {
-  color: #11999E;
+  color: #11999e;
   position: relative;
   top: 20px;
   right: 100px;
 }
 
 .footer-link-two {
-  color: #11999E;
+  color: #11999e;
   position: relative;
-  top: 20px; }
+  top: 20px;
+}
 
-
-.bottom { padding: 20px 0;
-          font-size: 0.75rem;}
+.bottom {
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
 
 h1 {
   color: #003d99;
   margin: 50px auto 0 auto;
   font-size: 5rem;
-  font-family: 'Chelsea Market', cursive;
+  font-family: "Chelsea Market", cursive;
 }
 
 h2 {
   color: #003d99;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   position: inherit;
   font-size: 2.5rem;
   font-weight: normal;
@@ -105,8 +113,8 @@ h2 {
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Patrick Hand SC', cursive;
+  color: #11999e;
+  font-family: "Patrick Hand SC", cursive;
 }
 
 .pro {
@@ -127,33 +135,36 @@ h3 {
   right: 350px;
 }
 
-hr { color: grey;
-     border-width: 12px;
-     width: 8%;
-     border-style: dotted none none none;
-     margin:100px auto; }
+hr {
+  color: grey;
+  border-width: 12px;
+  width: 8%;
+  border-style: dotted none none none;
+  margin: 100px auto;
+}
 
 .myButton {
-	box-shadow: 0px 1px 0px 0px #f0f7fa;
-	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
-	background-color:#33bdef;
-	border-radius:16px;
-	border:4px solid #057fd0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kalam', cursive;
-	font-size:16px;
-	font-weight:bold;
-	padding:13px 19px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #5b6178;
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 16px;
+  border: 4px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 13px 19px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
   margin: 15px auto 30px;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
-	background-color:#019ad2;
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
 }
 .myButton:active {
-	position:relative;
-	top:1px; }
+  position: relative;
+  top: 1px;
+}
